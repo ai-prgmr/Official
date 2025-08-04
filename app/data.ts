@@ -11,7 +11,7 @@ export const properties: Property[] = [
     price: "₹14 Cr",
     area: "20 Beegha",
     coordinates: { lat: 23.309621576120946, lng: 76.0460891580918 },
-    image: "/grass/Mundli_zameen.png",
+    image: "/Official/Mundli_zameen.png",
     features: [
       "Available in parcels of 5 Beegha",
       "Fertile Soil",
@@ -36,7 +36,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "520 sq ft",
     coordinates: { lat: 22.6775, lng: 75.8417 },
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     features: [
       "Main Road",
       "High Footfall",
@@ -59,7 +59,7 @@ export const properties: Property[] = [
     price: "₹81 lakhs",
     area: "1407 sq ft",
     coordinates: { lat: 22.6775, lng: 75.8417 },
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     features: [
       "Choithram School 6 mins away",
       "Choithram Hospital 6 mins away",
@@ -103,7 +103,7 @@ export const properties: Property[] = [
     price: "₹81 lakhs",
     area: "1407 sq ft",
     coordinates: { lat: 22.6774, lng: 75.8415 },
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     features: [
       "Choithram School 6 mins away",
       "Choithram Hospital 6 mins away",
@@ -147,7 +147,7 @@ export const properties: Property[] = [
     price: "₹78 lakhs",
     area: "1302 sq ft",
     coordinates: { lat: 22.6776, lng: 75.8415 },
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     features: [
       "Choithram School 6 mins away",
       "Choithram Hospital 6 mins away",
@@ -190,7 +190,7 @@ export const properties: Property[] = [
     price: "₹78 lakhs",
     area: "1302 sq ft",
     coordinates: { lat: 22.6776, lng: 75.8416 },
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     features: [
       "Choithram School 6 mins away",
       "Choithram Hospital 6 mins away",
@@ -233,7 +233,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "520 sq ft",
     coordinates: { lat: 22.6774, lng: 75.8415 },
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     features: [
       "Main Road",
       "High Footfall",
@@ -256,7 +256,7 @@ export const properties: Property[] = [
     price: "₹11.25 cr",
     area: "15 Beegha",
     coordinates: { lat: 23.324043026885096, lng: 76.05202089582649 },
-    image: "/grass/bagoda.png",
+    image: "/Official/bagoda.png",
     features: [
       "Available in parcels of 5 Beegha",
       "Main Road",
@@ -280,7 +280,7 @@ export const properties: Property[] = [
     price: "₹2.15 cr ",
     area: "18700 sq ft",
     coordinates: { lat: 23.324043026885096, lng: 76.05202089582649 },
-    image: "/grass/Ghatiya-road.jpeg",
+    image: "/Official/Ghatiya-road.jpeg",
     features: [
       "Main Road",
       "Highway Access",
@@ -302,7 +302,7 @@ export const projects: Project[] = [
     slug: "arna-residency",
     title: "Arna Residency",
     developer: "Project Arna",
-    image: "/grass/residence.png",
+    image: "/Official/residence.png",
     images: [],
     description:
       "This premier residential project offers luxurious living spaces with state-of-the-art amenities. Located in a prime area with excellent connectivity, it also provides the added convenience of integrated retail shops for all your daily needs.",

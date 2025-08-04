@@ -11,7 +11,7 @@ const Footer: React.FC = () => {
             <div className=" flex items-center gap-2 mb-2">
               <div className="text-white p-2 rounded-lg">
                 <Image
-                  src="/grass/grass-logo-gif.gif"
+                  src="/Official/grass-logo-gif.gif"
                   alt="Grass Venture Logo"
                   width={60}
                   height={60}

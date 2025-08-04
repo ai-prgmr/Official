@@ -11,7 +11,11 @@ interface BackgroundCarouselProps {
 const BackgroundCarousel: React.FC<BackgroundCarouselProps> = ({
   children,
 }) => {
-  const images = ["/grass/bg-1.jpg", "/grass/bg-2.png", "/grass/bg-3.jpg"];
+  const images = [
+    "/Official/bg-1.jpg",
+    "/Official/bg-2.png",
+    "/Official/bg-3.jpg",
+  ];
 
   const [currentIndex, setCurrentIndex] = useState(0);
 

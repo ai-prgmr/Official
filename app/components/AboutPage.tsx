@@ -6,7 +6,7 @@ const AboutPage: React.FC = () => {
     <div className="max-w-4xl mx-auto space-y-4 p-4 shadow-xl mt-10 bg-gradient-to-br from-green-200 to-blue-200 gap-4 hover:shadow-4xl">
       <div className="text-center">
         <Image
-          src="/grass/grass-logo-gif.gif"
+          src="/Official/grass-logo-gif.gif"
           alt="Grass Venture Logo"
           width={60}
           height={50}

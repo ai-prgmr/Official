@@ -18,7 +18,7 @@ const WhatsAppButton: React.FC = () => {
     >
       {/* WhatsApp Icon (simple SVG) */}
       <Image
-        src="/grass/Digital_Glyph_Green.svg" // Ensure you have this icon in your public folder
+        src="/Official/Digital_Glyph_Green.svg" // Ensure you have this icon in your public folder
         alt="WhatsApp Icon"
         width={60}
         height={60}
