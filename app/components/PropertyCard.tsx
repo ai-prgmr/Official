@@ -17,7 +17,7 @@ const PropertyCard: React.FC<{ property: Property }> = ({ property }) => {
   const detailPageHref = `/properties/${property.type}/${property.slug}`;
 
   return (
-    <div className="bg-gradient-to-b from-green-200 to-blue-200 rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
+    <div className="rounded-2xl shadow-lg overflow-hidden hover:shadow-2xl transition-all duration-300 transform hover:-translate-y-1">
       <div className="relative">
         <Image
           src={property.image}
@@ -47,7 +47,7 @@ const PropertyCard: React.FC<{ property: Property }> = ({ property }) => {
         )}
       </div>
 
-      <div className="p-6">
+      <div className="p-6 bg-gradient-to-b from-green-100 to-blue-100">
         <h3 className="text-xl font-bold text-gray-800 mb-2 truncate">
           {property.title}
         </h3>

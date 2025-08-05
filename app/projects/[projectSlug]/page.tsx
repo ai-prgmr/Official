@@ -75,14 +75,13 @@ const ProjectDetailsPage = async ({ params }: ProjectDetailsPageProps) => {
 
         {/* Gallery Section */}
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4 mb-8">
-          <div className="relative h-90 w-full overflow-hidden rounded-xl shadow-md">
+          <div className="relative h-80 w-full overflow-hidden ">
             <Image
               src={project.image}
               alt={project.title}
-              width={500}
-              height={500}
+              fill
               priority
-              className="object-cover transition-transform duration-300 hover:scale-105"
+              className="object-contain transition-transform duration-300 hover:scale-105"
             />
           </div>
           <div className="grid grid-cols-2 gap-4">
@@ -163,7 +162,7 @@ const ProjectDetailsPage = async ({ params }: ProjectDetailsPageProps) => {
                 <Link
                   key={property.id}
                   href={`/properties/${property.type}/${property.slug}`}
-                  className="block group bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
+                  className="block group   rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden"
                 >
                   <div className="relative h-48 w-full">
                     <Image
@@ -174,7 +173,7 @@ const ProjectDetailsPage = async ({ params }: ProjectDetailsPageProps) => {
                       sizes="(max-width: 768px) 100vw, (max-width: 1200px) 50vw, 33vw"
                     />
                   </div>
-                  <div className="p-4">
+                  <div className="p-4 bg-gradient-to-b from-green-100 to-blue-100">
                     <h3 className="text-xl font-bold text-gray-900 group-hover:text-green-600 transition-colors line-clamp-2">
                       {property.title}
                     </h3>
