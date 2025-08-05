@@ -32,10 +32,10 @@ const HomePage: React.FC<{
       <section className="w-full mx-auto">
         <BackgroundCarousel>
           <section className="text-center py-12">
-            <h2 className="text-4xl md:text-6xl font-bold text-white mb-6">
-              Find Your Perfect
+            <h1 className="text-4xl md:text-6xl font-bold text-white mb-6">
+              Find Your Perfect&nbsp;
               <span className="text-green-600 block">Property in MP</span>
-            </h2>
+            </h1>
             <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
               Discover premium agricultural, commercial, and residential
               properties across Madhya Pradesh. Verified listings with

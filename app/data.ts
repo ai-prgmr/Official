@@ -61,7 +61,7 @@ export const properties: Property[] = [
     price: "₹81 lakhs",
     area: "1407 sq ft",
     coordinates: { lat: 22.6775, lng: 75.8417 },
-    image: "/Official/1407.jpeg",
+    image: "/Official/1407.JPEG",
     features: [
       "School 6 mins",
       "Hospital 6 mins",
@@ -107,7 +107,7 @@ export const properties: Property[] = [
     price: "₹81 lakhs",
     area: "1407 sq ft",
     coordinates: { lat: 22.6774, lng: 75.8415 },
-    image: "/Official/1407.jpeg",
+    image: "/Official/1407.JPEG",
     features: [
       "School 6 mins",
       "Hospital 6 mins",
@@ -316,7 +316,7 @@ export const projects: Project[] = [
     title: "Aarna SSD Enclave",
     developer: "Sahu Developers",
     image: "/Official/residence.png",
-    images: ["/Official/1407.jpeg", "/Official/1302.png"],
+    images: ["/Official/1407.JPEG", "/Official/1302.png"],
     description:
       "This premier residential project offers luxurious living spaces with state-of-the-art amenities. Located in a prime area with excellent connectivity, it also provides the added convenience of integrated retail shops for all your daily needs.",
     location: "Indore, Madhya Pradesh",
