@@ -67,7 +67,7 @@ const PropertyCard: React.FC<{ property: Property }> = ({ property }) => {
               {property.price}
             </span>
             <span className="text-gray-900 ml-2 font-bold">
-              • {property.area}
+              {property.area}
             </span>
           </div>
         </div>

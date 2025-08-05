@@ -3,6 +3,12 @@ import { Phone, Mail, MapPin } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 const Footer: React.FC = () => {
+  const whatsappNumber = "+919201463228";
+  const whatsappMessage = encodeURIComponent(
+    "Hello! I have a question about your Properties."
+  );
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${whatsappMessage}`;
+
   return (
     <footer className="text-[#1a1a1a] py-12 mt-16">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -33,6 +39,11 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
+                <Link href="/projects" className="hover:text-white">
+                  Projects
+                </Link>
+              </li>
+              <li>
                 <Link href="/properties" className="hover:text-white">
                   Properties
                 </Link>
@@ -43,7 +54,11 @@ const Footer: React.FC = () => {
                 </Link>
               </li>
               <li>
-                <Link href="/contact" className="hover:text-white">
+                <Link
+                  href={whatsappLink}
+                  target="_blank"
+                  className="hover:text-white"
+                >
                   Contact
                 </Link>
               </li>
@@ -85,7 +100,7 @@ const Footer: React.FC = () => {
             <div className="space-y-2 text-gray-400">
               <p className="flex items-center gap-2">
                 <Phone size={16} />
-                <Link href="tel:+91 97547 31939">+91 92014 63228</Link>
+                <Link href="tel:+91 92014 63228">+91 92014 63228</Link>
               </p>
               <p className="flex items-center gap-2">
                 <Mail size={16} />

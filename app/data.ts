@@ -329,6 +329,6 @@ export const projects: Project[] = [
       "Strong ROI Potential",
       "Lift Access",
     ],
-    propertyCount: 14,
+    propertyCount: 6,
   },
 ];
