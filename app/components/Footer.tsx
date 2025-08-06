@@ -35,31 +35,19 @@ const Footer: React.FC = () => {
             <nav>
               <ul className="space-y-2 text-gray-400">
                 <li>
-                  <Link href="/" className="hover:text-white">
-                    Home
-                  </Link>
+                  <Link href="/">Home</Link>
                 </li>
                 <li>
-                  <Link href="/projects" className="hover:text-white">
-                    Projects
-                  </Link>
+                  <Link href="/projects">Projects</Link>
                 </li>
                 <li>
-                  <Link href="/properties" className="hover:text-white">
-                    Properties
-                  </Link>
+                  <Link href="/properties">Properties</Link>
                 </li>
                 <li>
-                  <Link href="/about-us" className="hover:text-white">
-                    About
-                  </Link>
+                  <Link href="/about-us">About</Link>
                 </li>
                 <li>
-                  <Link
-                    href={whatsappLink}
-                    target="_blank"
-                    className="hover:text-white"
-                  >
+                  <Link href={whatsappLink} target="_blank">
                     Contact
                   </Link>
                 </li>
@@ -71,28 +59,13 @@ const Footer: React.FC = () => {
             <h4 className="font-semibold mb-4">Property Types</h4>
             <ul className="space-y-2 text-gray-400">
               <li>
-                <Link
-                  href="/properties/agriculture"
-                  className="hover:text-white"
-                >
-                  Agricultural Land
-                </Link>
+                <Link href="/properties/agriculture">Agricultural Land</Link>
               </li>
               <li>
-                <Link
-                  href="/properties/commercial"
-                  className="hover:text-white"
-                >
-                  Commercial Plots
-                </Link>
+                <Link href="/properties/commercial">Commercial Plots</Link>
               </li>
               <li>
-                <Link
-                  href="properties/residential"
-                  className="hover:text-white"
-                >
-                  Residential Land
-                </Link>
+                <Link href="properties/residential">Residential Land</Link>
               </li>
             </ul>
           </div>
