@@ -40,7 +40,7 @@ export default function GrassHeader() {
           title="Grass Venture Home"
         >
           <Image
-            src="/Official/grass-logo-gif.gif"
+            src="/grass-logo-gif.gif"
             alt="Grass Venture Logo"
             width={60}
             height={60}

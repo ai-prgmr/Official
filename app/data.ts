@@ -11,7 +11,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "20 Beegha",
     coordinates: { lat: 23.309621576120946, lng: 76.0460891580918 },
-    image: "/Official/Mundli_zameen.png",
+    image: "/Mundli_zameen.png",
     features: [
       "Available in parcels",
       "Fertile Soil",
@@ -36,7 +36,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "520 sq ft",
     coordinates: { lat: 22.6775, lng: 75.8417 },
-    image: "/Official/residence.png",
+    image: "/residence.png",
     features: [
       "Main Road",
       "High Footfall",
@@ -61,7 +61,7 @@ export const properties: Property[] = [
     price: "₹81 lakhs",
     area: "1407 sq ft",
     coordinates: { lat: 22.6775, lng: 75.8417 },
-    image: "/Official/1407.JPEG",
+    image: "/1407.JPEG",
     features: [
       "School 6 mins",
       "Hospital 6 mins",
@@ -107,7 +107,7 @@ export const properties: Property[] = [
     price: "₹81 lakhs",
     area: "1407 sq ft",
     coordinates: { lat: 22.6774, lng: 75.8415 },
-    image: "/Official/1407.JPEG",
+    image: "/1407.JPEG",
     features: [
       "School 6 mins",
       "Hospital 6 mins",
@@ -153,7 +153,7 @@ export const properties: Property[] = [
     price: "₹78 lakhs",
     area: "1302 sq ft",
     coordinates: { lat: 22.6776, lng: 75.8415 },
-    image: "/Official/1302.png",
+    image: "/1302.png",
     features: [
       "School 6 mins",
       "Hospital 6 mins",
@@ -198,7 +198,7 @@ export const properties: Property[] = [
     price: "₹78 lakhs",
     area: "1302 sq ft",
     coordinates: { lat: 22.6776, lng: 75.8416 },
-    image: "/Official/1302.png",
+    image: "/1302.png",
     features: [
       "School 6 mins",
       "Hospital 6 mins",
@@ -243,7 +243,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "520 sq ft",
     coordinates: { lat: 22.6774, lng: 75.8415 },
-    image: "/Official/residence.png",
+    image: "/residence.png",
     features: [
       "Main Road",
       "High Footfall",
@@ -268,7 +268,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "15 Beegha",
     coordinates: { lat: 23.324043026885096, lng: 76.05202089582649 },
-    image: "/Official/bagoda.png",
+    image: "/bagoda.png",
     features: [
       "Available in parcels",
       "Main Road",
@@ -315,8 +315,8 @@ export const projects: Project[] = [
     slug: "aarna-ssd-enclave",
     title: "Aarna SSD Enclave",
     developer: "Sahu Developers",
-    image: "/Official/residence.png",
-    images: ["/Official/1407.JPEG", "/Official/1302.png"],
+    image: "/residence.png",
+    images: ["/1407.JPEG", "/1302.png"],
     video: "",
     description:
       "This premier residential project offers luxurious living spaces with state-of-the-art amenities. Located in a prime area with excellent connectivity, it also provides the added convenience of integrated retail shops for all your daily needs.",
