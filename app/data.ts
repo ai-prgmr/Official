@@ -292,7 +292,7 @@ export const properties: Property[] = [
     price: "Call for Price",
     area: "18700 sq ft",
     coordinates: { lat: 23.324043026885096, lng: 76.05202089582649 },
-    image: "/Official/Ghatiya-road.jpeg",
+    image: "/Ghatiya-road.jpeg",
     features: [
       "Main Road",
       "Highway Access",
