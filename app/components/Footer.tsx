@@ -32,37 +32,39 @@ const Footer: React.FC = () => {
 
           <div>
             <h4 className="font-semibold mb-4">Quick Links</h4>
-            <ul className="space-y-2 text-gray-400">
-              <li>
-                <Link href="/" className="hover:text-white">
-                  Home
-                </Link>
-              </li>
-              <li>
-                <Link href="/projects" className="hover:text-white">
-                  Projects
-                </Link>
-              </li>
-              <li>
-                <Link href="/properties" className="hover:text-white">
-                  Properties
-                </Link>
-              </li>
-              <li>
-                <Link href="/about-us" className="hover:text-white">
-                  About
-                </Link>
-              </li>
-              <li>
-                <Link
-                  href={whatsappLink}
-                  target="_blank"
-                  className="hover:text-white"
-                >
-                  Contact
-                </Link>
-              </li>
-            </ul>
+            <nav>
+              <ul className="space-y-2 text-gray-400">
+                <li>
+                  <Link href="/" className="hover:text-white">
+                    Home
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/projects" className="hover:text-white">
+                    Projects
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/properties" className="hover:text-white">
+                    Properties
+                  </Link>
+                </li>
+                <li>
+                  <Link href="/about-us" className="hover:text-white">
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    href={whatsappLink}
+                    target="_blank"
+                    className="hover:text-white"
+                  >
+                    Contact
+                  </Link>
+                </li>
+              </ul>
+            </nav>
           </div>
 
           <div>

@@ -100,6 +100,27 @@ const ProjectDetailsPage = async ({ params }: ProjectDetailsPageProps) => {
                 </div>
               ))}
           </div>
+          {/* Video Thumbnail (Conditional) */}
+          {project.video && (
+            <Link
+              href={project.video}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="relative h-40 md:h-80 overflow-hidden rounded-xl shadow-md flex items-center justify-center bg-gray-900 bg-opacity-70 group"
+            >
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 24 24"
+                fill="white"
+                className="w-16 h-16 transition-transform duration-300 group-hover:scale-110"
+              >
+                <path d="M8 5v14l11-7z" />
+              </svg>
+              <span className="absolute bottom-4 left-4 text-white text-sm font-semibold bg-gray-900 bg-opacity-50 px-3 py-1 rounded-full">
+                Watch Video
+              </span>
+            </Link>
+          )}
         </div>
 
         <div className="prose max-w-none text-gray-700 mb-8">

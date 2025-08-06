@@ -19,9 +19,8 @@ import {
 import { projects } from "../data";
 // Dynamically import MapProperty with ssr: false
 const DynamicMapProperty = dynamic(() => import("./MapProperty"), {
-  // Adjust path to MapProperty
-  ssr: false, // This is the crucial part!
-  loading: () => <p>Loading map...</p>, // Optional: show a loading indicator
+  ssr: false,
+  loading: () => <p>Loading map...</p>,
 });
 const HomePage: React.FC<{
   properties: Property[];
@@ -38,7 +37,7 @@ const HomePage: React.FC<{
             </h1>
             <p className="text-xl text-white mb-8 max-w-2xl mx-auto">
               Discover premium agricultural, commercial, and residential
-              properties across Madhya Pradesh. Verified listings with
+              properties in Indore, Ujjain, & Dewas. Verified listings with
               transparent pricing.
             </p>
             <div className="flex flex-wrap gap-4 justify-center">
@@ -96,7 +95,7 @@ const HomePage: React.FC<{
       </section>
       <section>
         <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-          Projects
+          Featured Projects in Indore
         </h3>
         <div className="flex mx-auto max-w-lg gap-6 flex-wrap justify-center">
           {projects.map((project) => (
@@ -116,9 +115,9 @@ const HomePage: React.FC<{
                   />
                 </div>
                 <div className="p-6">
-                  <h2 className="text-2xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
+                  <h4 className="text-2xl font-bold text-gray-900 group-hover:text-green-600 transition-colors">
                     {project.title}
-                  </h2>
+                  </h4>
                   <p className="text-gray-600 mt-2">{project.description}</p>
                   <div className="mt-4 flex flex-wrap gap-2">
                     <span className="bg-gray-100 text-gray-700 text-sm font-medium px-2.5 py-0.5 rounded">
@@ -136,13 +135,29 @@ const HomePage: React.FC<{
       </section>
       <section>
         <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-          Featured Properties
+          Featured Properties in Indore
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {properties.slice(0, 3).map((property) => (
             <PropertyCard key={property.id} property={property} />
           ))}
         </div>
+      </section>
+      <section className="bg-green-700 py-16 text-center">
+        <h3 className="text-3xl md:text-4xl font-bold text-white mb-4">
+          Ready to Find Your Perfect Property?
+        </h3>
+        <p className="text-xl text-green-50 mb-8 max-w-2xl mx-auto">
+          Our team of experts is ready to help you every step of the way.
+        </p>
+        <a
+          href="https://wa.me/919201463228"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="bg-white text-green-700 px-8 py-4 rounded-lg font-semibold hover:bg-gray-200 transition-colors"
+        >
+          Get Started Now
+        </a>
       </section>
     </div>
   );

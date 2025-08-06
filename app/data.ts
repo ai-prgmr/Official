@@ -317,6 +317,7 @@ export const projects: Project[] = [
     developer: "Sahu Developers",
     image: "/Official/residence.png",
     images: ["/Official/1407.JPEG", "/Official/1302.png"],
+    video: "",
     description:
       "This premier residential project offers luxurious living spaces with state-of-the-art amenities. Located in a prime area with excellent connectivity, it also provides the added convenience of integrated retail shops for all your daily needs.",
     location: "Indore, Madhya Pradesh",

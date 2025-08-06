@@ -3,7 +3,7 @@ import PropertyTypeSelector from "@/app/components/PropertyTypeSelector";
 import PropertyGridDisplay from "@/app/components/PropertyGridDisplay";
 
 export default async function PropertiesOverviewPage() {
-  const featuredProperties = properties; // Example: show first 6
+  const featuredProperties = properties;
 
   return (
     <main className="container mx-auto px-4 py-8 ">

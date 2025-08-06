@@ -11,19 +11,30 @@ export const metadata: Metadata = {
 
 const ProjectsPage = () => {
   return (
-    <main className="container mx-auto px-4 py-8">
+    <main className="container mx-auto px-4 py-8 ">
       <h1 className="text-4xl md:text-5xl font-bold text-center text-gray-900 mb-12 flex items-center justify-center gap-4">
         Our Projects
       </h1>
+      <p className="text-xl text-gray-200 max-w-2xl mx-auto mb-8 bg-green-700 py-8 text-center">
+        Explore our portfolio of curated real estate projects in Indore and
+        surrounding areas. Each project is a testament to quality, trust, and
+        strategic location.
+      </p>
 
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+      <div
+        className={
+          projects.length === 1
+            ? "flex justify-center" // Center a single item using Flexbox
+            : "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8" // Use grid for multiple items
+        }
+      >
         {projects.map((project) => (
           <Link
             href={`/projects/${project.slug}`}
             key={project.id}
             className="block group"
           >
-            <div className="bg-gradient-to-b from-green-200 to-blue-200 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden h-full">
+            <div className="bg-gradient-to-b from-green-200 to-blue-200 rounded-xl shadow-lg hover:shadow-xl transition-shadow duration-300 overflow-hidden h-full max-w-sm">
               <div className="relative h-48 w-full overflow-hidden">
                 <Image
                   src={project.image}

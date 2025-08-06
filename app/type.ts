@@ -28,6 +28,7 @@ export interface Project {
   developer: string;
   image: string; // URL to the main project image
   images: string[]; // Additional images
+  video?: string;
   description: string;
   location: string;
   status: "Under Construction" | "Ready to Move" | "Completed";

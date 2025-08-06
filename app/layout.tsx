@@ -15,8 +15,10 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Grass Venture",
-  description: "Find your dream property in Madhya Pradesh",
+  title:
+    "Grass Venture | Real Estate & Properties for Sale in Indore, Ujjain, Dewas, Madhya Pradesh",
+  description:
+    "Find your dream property in Madhya Pradesh with Grass Venture. We offer a wide selection of residential, commercial, and agricultural land in Indore, Ujjain & Dewas. Your property search ends here.",
 };
 
 export default function RootLayout({

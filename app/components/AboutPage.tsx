@@ -1,6 +1,13 @@
 import React from "react";
 import { Shield, Award, TrendingUp } from "lucide-react";
 import Image from "next/image";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "About Grass Venture - Your Real Estate Partner in Madhya Pradesh",
+  description:
+    "Learn about Grass Venture's mission to provide transparent, verified, and expert real estate services across Indore, Ujjain, and Dewas. Your trusted partner for property investments.",
+};
 const AboutPage: React.FC = () => {
   return (
     <div className="max-w-4xl mx-auto space-y-4 p-4 shadow-xl mt-10 bg-gradient-to-br from-green-200 to-blue-200 gap-4 hover:shadow-4xl">
@@ -13,8 +20,7 @@ const AboutPage: React.FC = () => {
           priority
           loading="eager"
           unoptimized={true}
-          className="w-50 h-24 items-center mx-auto mb-4"
-          style={{ display: "block", marginLeft: "auto", marginRight: "auto" }}
+          className="w-50 h-24 mx-auto mb-4"
         />
 
         <p className="text-xl text-gray-600">
