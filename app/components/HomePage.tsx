@@ -1,7 +1,5 @@
-"use client";
 import React from "react";
 import { Property, Project } from "../type";
-import dynamic from "next/dynamic"; // <-- Import dynamic
 import PropertyCard from "./PropertyCard";
 import StatCard from "./StatCard";
 import BackgroundCarousel from "./BackgroundCarousel";
@@ -17,11 +15,7 @@ import {
   MapPin,
 } from "lucide-react";
 import { projects } from "../data";
-// Dynamically import MapProperty with ssr: false
-const DynamicMapProperty = dynamic(() => import("./MapProperty"), {
-  ssr: false,
-  loading: () => <p>Loading map...</p>,
-});
+
 const HomePage: React.FC<{
   properties: Property[];
   projects: Project[];
@@ -83,13 +77,6 @@ const HomePage: React.FC<{
           color="bg-orange-500"
         />
       </section>
-
-      <section>
-        <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-          Explore Properties
-        </h3>
-        <DynamicMapProperty properties={properties} />
-      </section>
       <section>
         <PropertyTypeSelector />
       </section>
@@ -135,7 +122,7 @@ const HomePage: React.FC<{
       </section>
       <section>
         <h3 className="text-3xl font-bold text-gray-800 mb-8 text-center">
-          Featured Properties in Indore
+          Featured Properties in Indore, Ujjain
         </h3>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {properties.slice(0, 3).map((property) => (

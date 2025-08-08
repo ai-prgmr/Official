@@ -33,10 +33,9 @@ const BackgroundCarousel: React.FC<BackgroundCarouselProps> = ({
       <Image
         src={images[currentIndex]}
         alt={`Background image ${currentIndex + 1}`}
-        layout="fill"
-        objectFit="cover"
+        fill
         sizes="100vw"
-        className="transition-opacity duration-1000 ease-in-out"
+        className="object-cover"
         priority={true}
       />
       {/* Dark Overlay for Text Readability - MAKE IT STRONGER */}

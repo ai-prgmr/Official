@@ -59,14 +59,19 @@ const PropertyCard: React.FC<{ property: Property }> = ({ property }) => {
         <div className="flex items-center justify-between mb-4">
           <div>
             {property.type === "residential" && (
-              <span className="text-gray-800 font-bold text-sm">
+              <span className="text-gray-800 font-bold text-xl">
                 Starting from{" "}
               </span>
             )}
-            <span className="text-2xl font-bold text-green-600">
-              {property.price}
+            <span className="text-xl font-bold text-green-600">
+              {property.price}{" "}
             </span>
-            <span className="text-gray-900 ml-2 font-bold">
+            {property.type === "residential" && (
+              <span className="text-gray-800 font-bold text-sm">
+                <br className="block sm:hidden" />
+              </span>
+            )}
+            <span className="text-gray-900 font-bold text-xl">
               {property.area}
             </span>
           </div>
