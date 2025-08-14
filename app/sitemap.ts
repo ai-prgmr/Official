@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 import { projects, properties } from "./data";
 export const revalidate = 86400;
 
-const BASE_URL = "https://www.grassventure.in";
+const BASE_URL = "https://grassventure.in";
 const WEEKLY = "weekly" as const;
 const DAILY = "daily" as const;
 const MONTHLY = "monthly" as const;
