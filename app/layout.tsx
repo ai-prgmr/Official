@@ -3,7 +3,7 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import GrassHeader from "./components/GrassHeader";
 import Footer from "./components/Footer";
-import WhatsAppButton from "./components/WhatsAppButton";
+import SocialMediaButtons from "./components/WhatsAppButton";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -36,7 +36,7 @@ export default function RootLayout({
         <div className="headerSpacer"></div>
         {children}
         <Footer />
-        <WhatsAppButton />
+        <SocialMediaButtons />
       </body>
     </html>
   );
