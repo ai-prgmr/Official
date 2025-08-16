@@ -65,7 +65,7 @@ const Footer: React.FC = () => {
                 <Link href="/properties/commercial">Commercial Plots</Link>
               </li>
               <li>
-                <Link href="properties/residential">Residential Land</Link>
+                <Link href="/properties/residential">Residential Land</Link>
               </li>
             </ul>
           </div>
